@@ -34,5 +34,3 @@
 },
 
 ]
-
-db.users.find({"houses.neighborhood":"uptown"})
