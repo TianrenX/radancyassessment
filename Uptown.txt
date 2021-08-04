@@ -1,0 +1,4 @@
+db.users.find(
+{"houses.neighborhood":"Uptown"},
+{"houses.$":1,_id:0}
+)
